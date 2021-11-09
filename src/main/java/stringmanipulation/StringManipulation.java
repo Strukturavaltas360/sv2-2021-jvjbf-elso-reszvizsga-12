@@ -6,7 +6,7 @@ public class StringManipulation {
         String resultString="";
         for (int i = 0 ; i < s.length(); i++) {
             if (i % 2 == 0) {
-                resultString = resultString + s.substring(i,i+1);
+                resultString += s.substring(i,i+1);
             }
         }
         return resultString;
